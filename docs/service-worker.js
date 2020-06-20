@@ -1,4 +1,4 @@
-importScripts("/mv-tests/precache-manifest.dde7380567e8682ec605c183766151c6.js", "/mv-tests/workbox-v4.3.1/workbox-sw.js");
+importScripts("/mv-tests/precache-manifest.3825180b1c8469e40f360f3b7d70c463.js", "/mv-tests/workbox-v4.3.1/workbox-sw.js");
 workbox.setConfig({modulePathPrefix: "/mv-tests/workbox-v4.3.1"});
 // workbox.core.skipWaiting();
 // workbox.core.clientsClaim();
