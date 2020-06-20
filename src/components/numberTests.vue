@@ -1,29 +1,47 @@
 <template>
-  <div class=" w-100 h-100 overflow-auto">
-    <h1 class="mb-5"> تست مثال لازم</h1>
-    <div class="row py-3 text-right border-top border-secondary px-3" style="direction:rtl;" v-for="(q,i) in questions" :key="i">
+  <div class="w-100 h-100 overflow-auto">
+    <h1 class="mb-5">تست مثال لازم</h1>
+    <div
+      class="row py-3 text-right border-top border-secondary px-3"
+      style="direction:rtl;"
+      v-for="(q,i) in questions"
+      :key="i"
+      :ref="'q-'+i"
+    >
       <div class="col-12 mb-3 font-weight-bold">{{q}}</div>
       <div class="w-100">
-        <div class="col-12 pb-2 form-check text-right d-flex answer-item"  v-for="(j,k) in answers" :key="j">
-          <input
-            class="form-check-input"
-            type="radio"
-            v-model="results[i]"
-            :name="'q'+i"
-            :id="'qid'+i+'_'+j"
-            :value="k+1"
-            checked
-          />
-          <label class="form-check-label flex-grow-1 pr-4" :for="'qid'+i+'_'+j">{{j}}</label>
+        <div
+          class="col-12 pb-2 form-check text-right d-flex answer-item"
+          v-for="(j,k) in answers"
+          :key="j"
+        >
+          <label
+            @click="scrolltonext(i)"
+            class="form-check-label flex-grow-1 pr-2"
+            :for="'qid'+i+'_'+j"
+          >
+            <input
+              class="form-check-input "
+              type="radio"
+              v-model="results[i]"
+              :name="'q'+i"
+              :id="'qid'+i+'_'+j"
+              :value="k+1"
+              checked
+            />
+            <span class="pr-4">
+            {{j}}
 
+            </span>
+          </label>
         </div>
       </div>
     </div>
   </div>
 </template>
 <style lang="scss" scoped>
-.answer-item:not(:last-of-type){
-  border-bottom: 1px dashed rgb(0,123,255);
+.answer-item:not(:last-of-type) {
+  border-bottom: 1px dashed rgb(0, 123, 255);
 }
 </style>
 
@@ -48,6 +66,12 @@ export default {
       results: []
     };
   },
-  created() {}
+  created() {},
+  methods: {
+    scrolltonext(i) {
+      let el = this.$refs["q-" + (i + 1)];
+      if (el) el[0].scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
 };
 </script>
