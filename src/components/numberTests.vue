@@ -1,6 +1,6 @@
 <template>
   <div class="w-100 h-100 overflow-auto">
-    <h1 class="mb-5">تست مثال لازم</h1>
+    <h1 class="mb-0 py-2 bg-primary">تست sc190</h1>
     <div
       class="w-100 py-3 text-right border-top border-secondary pr-3"
       style="direction:rtl;"
@@ -34,6 +34,7 @@
         </div>
       </div>
     </div>
+    <div class="w-100 overflow-auto">
     <table class="table table-striped table-dark w-100">
       <thead>
         <tr>
@@ -66,6 +67,7 @@
         </tr>
       </tbody>
     </table>
+    </div>
   </div>
 </template>
 <style lang="scss" scoped>
@@ -187,27 +189,27 @@ export default {
         questionNos: [24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
       },
       {
-        lable: "t4",
+        lable: "t5",
         questionNos: [34, 35, 36, 37, 38, 39, 40, 41, 42]
       },
       {
-        lable: "t4",
+        lable: "t6",
         questionNos: [43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54]
       },
       {
-        lable: "t4",
+        lable: "t7",
         questionNos: [55, 56, 57, 58, 59, 60, 61, 62, 63, 64]
       },
       {
-        lable: "t4",
+        lable: "t8",
         questionNos: [65, 66, 67, 68, 69, 70]
       },
       {
-        lable: "t4",
+        lable: "t9",
         questionNos: [71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83]
       },
       {
-        lable: "t4",
+        lable: "t10",
         questionNos: [84, 85, 86, 87, 88, 89, 90]
       }
     ];
