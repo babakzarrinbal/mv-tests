@@ -4,8 +4,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mv-tests/./manifest.json"
   },
   {
-    "revision": "5e763569da06215b3947",
-    "url": "/mv-tests/css/app.1b60a6a3.css"
+    "revision": "03bf13ded8e8470ae1ae",
+    "url": "/mv-tests/css/app.4dfaa414.css"
   },
   {
     "revision": "9db106216a9b44169c9a",
@@ -116,12 +116,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mv-tests/img/ttsicons/shield.svg"
   },
   {
-    "revision": "03f66882398cf20eb8e106ec1c832a18",
+    "revision": "1b3927a1d967cdb026366f0aed135982",
     "url": "/mv-tests/index.html"
   },
   {
-    "revision": "5e763569da06215b3947",
-    "url": "/mv-tests/js/app.e0690aa6.js"
+    "revision": "03bf13ded8e8470ae1ae",
+    "url": "/mv-tests/js/app.9f9b998d.js"
   },
   {
     "revision": "9db106216a9b44169c9a",

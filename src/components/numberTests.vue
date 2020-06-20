@@ -31,7 +31,6 @@
             />
             <span class="pr-4">
             {{j}}
-
             </span>
           </label>
         </div>
