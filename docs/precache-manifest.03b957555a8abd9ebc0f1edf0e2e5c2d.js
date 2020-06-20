@@ -4,12 +4,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mv-tests/./manifest.json"
   },
   {
-    "revision": "51262f49a81e36358383",
-    "url": "/mv-tests/css/app.b79c85dc.css"
+    "revision": "5e763569da06215b3947",
+    "url": "/mv-tests/css/app.1b60a6a3.css"
   },
   {
     "revision": "9db106216a9b44169c9a",
     "url": "/mv-tests/css/chunk-vendors.0ba3e87d.css"
+  },
+  {
+    "revision": "e8ef20357ee97e45a8d93cd1e0d1330f",
+    "url": "/mv-tests/fonts/IRANSansWeb(FaNum).e8ef2035.woff2"
+  },
+  {
+    "revision": "a1233cc118c5257c1add132a786df256",
+    "url": "/mv-tests/fonts/IRANSansWeb.a1233cc1.woff"
+  },
+  {
+    "revision": "e836ee3ec82a8794c92cc132e6351695",
+    "url": "/mv-tests/fonts/IRANSansWeb_Bold.e836ee3e.woff"
+  },
+  {
+    "revision": "eff85aebf1c79d1ccc332283bf604853",
+    "url": "/mv-tests/fonts/IRANSansWeb_Medium.eff85aeb.woff"
   },
   {
     "revision": "da8857c4b5ff5228eda7b8bad5514750",
@@ -100,12 +116,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mv-tests/img/ttsicons/shield.svg"
   },
   {
-    "revision": "35bd9c73467856403ded3fb374a1bd5a",
+    "revision": "03f66882398cf20eb8e106ec1c832a18",
     "url": "/mv-tests/index.html"
   },
   {
-    "revision": "51262f49a81e36358383",
-    "url": "/mv-tests/js/app.0f633b43.js"
+    "revision": "5e763569da06215b3947",
+    "url": "/mv-tests/js/app.e0690aa6.js"
   },
   {
     "revision": "9db106216a9b44169c9a",
